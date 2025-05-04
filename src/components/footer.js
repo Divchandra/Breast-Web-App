@@ -31,7 +31,7 @@ function Footer() {
         <div className="flex flex-col items-center">
           {/* Apply the circle-image class to the div */}
           <div className="circle-image" style={{ backgroundImage: "url('/images/photo2.jpg')" }}></div>
-          <p className="mt-3 font-semibold text-lg">Vandna S</p>
+          <p className="mt-3 font-semibold text-lg">Vandana S</p>
         </div>
       </div>
 
