@@ -2,7 +2,7 @@
 header .typewriter-container {
   position: relative;
   display: inline-block;
-  font-size: 1000px; /* Increased font size for typewriter effect */
+  font-size: 6rem; /* Reduced font size for better control */
   font-weight: 600;
   margin-top: 1rem;
   color: #fff;
@@ -23,21 +23,21 @@ header .typewriter {
   z-index: 2;
 }
 
-/* ------------------------------------footer-----------------------------*/
+/* ---------------------------- Footer ---------------------------- */
 .circle-image {
-  width: 138px; /* Set the desired size of the circle */
-  height: 128px; /* Make the height equal to width to maintain a circle */
-  border-radius: 50%; /* Makes the div circular */
-  overflow: hidden; /* Ensures content outside the circle is clipped */
-  background-size: cover; /* Ensures the image covers the circle */
-  background-position: center; /* Centers the image inside the circle */
-  border: 4px solid white; /* Optional: adds a white border around the circle */
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+  width: 138px;
+  height: 138px; /* Adjusted to maintain a perfect circle */
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Custom styling for the footer */
+/* Custom footer styling */
 footer {
-  background-color: #ec4f7e; /* Pink color background */
+  background-color: #ec4f7e; /* Pink background */
   color: white;
   padding: 40px;
   border-radius: 1.5rem 1.5rem 0 0;
@@ -87,25 +87,25 @@ footer .flex-wrap {
   flex-wrap: wrap;
 }
 
-/* Add more specific rules for social icons if necessary */
 footer .text-2xl {
   font-size: 1.5rem;
 }
-/*----------------------------------------app.js-----------------------------*/
 
-/* General page styles */
+/* --------------------------- General Page Styling --------------------------- */
+
+/* General styles for body */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #fff0f5, #ffe4e6); /* light pink gradient */
+  background: linear-gradient(to right, #fff0f5, #ffe4e6); /* Light pink gradient */
   color: #333;
   scroll-behavior: smooth;
 }
 
-/* Header */
+/* Header styling */
 header {
-  background-color: #ec4899; /* pink-500 */
+  background-color: #be185d; /* Pink-500 */
   color: white;
   padding: 2rem;
   text-align: center;
@@ -114,19 +114,20 @@ header {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Navbar */
+/* Navbar styling */
 nav {
-  background-color: #be185d; /* pink-700 */
+  background-color: #be185d; /* Pink-700 */
   display: flex;
   justify-content: center;
   gap: 2rem;
   padding: 1rem;
   position: sticky;
-  top: 0;
+  top: 0; /* Ensures the navbar sticks to the top */
   z-index: 1000;
   color: white;
   font-weight: bold;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin: 0; /* Ensure no extra margin around the navbar */
 }
 
 nav button {
@@ -139,10 +140,10 @@ nav button {
 }
 
 nav button:hover {
-  color: #fbcfe8; /* pink-200 */
+  color: #fbcfe8; /* Pink-200 */
 }
 
-/* Sections */
+/* Section styling */
 section {
   padding: 2rem;
   margin: 2rem auto;
@@ -152,9 +153,9 @@ section {
   max-width: 800px;
 }
 
-/* Footer */
+/* Footer (Custom) */
 footer {
-  background-color: #be185d; /* pink-700 */
+  background-color: #be185d; /* Pink-700 */
   color: white;
   text-align: center;
   padding: 1rem;
@@ -163,10 +164,11 @@ footer {
   margin-top: 2rem;
 }
 
-/* Upload File Input */
+/* File Input */
 input[type="file"] {
-  border: 1px solid #d1d5db; /* gray-300 */
+  border: 1px solid #d1d5db; /* Gray-300 */
   padding: 0.5rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
+  width: 100%; /* Make file input take up full width */
 }

@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-r from-pink-50 to-pink-100 font-sans">
       <header className="text-center p-8 bg-pink-600 text-white rounded-b-2xl shadow-md">
-        <h1 className="text-4xl font-bold">Breast Cancer Detection Portal</h1>
+        <h1 className="text-4xl font-bold">Breast Cancer Thermography Classification</h1>
         <p className="text-lg mt-2">AI-powered image analysis for early diagnosis</p>
         <h1 className="text-4xl font-bold">
           <TypewriterEffect text="A   collaboration between UTPL X NITK" speed={100} />
